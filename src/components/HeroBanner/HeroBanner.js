@@ -1,13 +1,10 @@
 import React from "react";
-
 import { Typography, makeStyles, Paper, Grid } from "@material-ui/core";
-
 import image1 from "../../assets/images/slider-bg.png";
 import image2 from "../../assets/images/bottom-pattern.png";
 import image3 from "../../assets/images/top-pattern.png";
-import girlImage from "../../assets/images/girl.png";
-import logoName from "../../assets/images/logo-h1.png";
 import designImage from "../../assets/images/bottom.png";
+import { BannerData } from "../../DataConfig";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -65,41 +62,46 @@ function HeroBanner() {
     <div className={classes.root}>
       <img src={image3} alt="features" className={classes.imageTop} />
       <img src={image2} alt="features" className={classes.imageBottom} />
-      <Grid
-        container
-        direction="row"
-        justify="center"
-        alignItems="center"
-        spacing={3}
-      >
-        <Grid item xs={12} md={4}>
-          <Paper className={classes.gImage}>
-            <img src={girlImage} alt="girlImage" />
-          </Paper>
-        </Grid>
-        <Grid item xs={12} md={5}>
-          <Paper className={classes.girlHeading}>
-            <img
-              src={logoName}
-              alt="logoName"
-              className={classes.logoNameText}
-            />
-            <Typography
-              variant="body1"
-              gutterBottom
-              className={classes.bannerText}
-            >
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text.
-            </Typography>
-            <img
-              src={designImage}
-              alt="design"
-              className={classes.designPhoto}
-            />
-          </Paper>
-        </Grid>
-      </Grid>
+      {BannerData.map((elem, i) => {
+        const { pic1, Title, Paragraph } = elem;
+        return (
+          <Grid
+            key={(elem, i)}
+            container
+            direction="row"
+            justify="center"
+            alignItems="center"
+            spacing={3}
+          >
+            <Grid item xs={12} md={4}>
+              <Paper className={classes.gImage}>
+                <img src={pic1} alt="girlImage" />
+              </Paper>
+            </Grid>
+            <Grid item xs={12} md={5}>
+              <Paper className={classes.girlHeading}>
+                <img
+                  src={Title}
+                  alt="logoName"
+                  className={classes.logoNameText}
+                />
+                <Typography
+                  variant="body1"
+                  gutterBottom
+                  className={classes.bannerText}
+                >
+                  {Paragraph}
+                </Typography>
+                <img
+                  src={designImage}
+                  alt="design"
+                  className={classes.designPhoto}
+                />
+              </Paper>
+            </Grid>
+          </Grid>
+        );
+      })}
     </div>
   );
 }
