@@ -3,6 +3,7 @@ import Navbar from "./components/Header/Navbar";
 import HeroBanner from "./components/HeroBanner/HeroBanner";
 import MeetHappy from "./components/MeetHappy/MeetHappy";
 import Names from "./components/Names/Names";
+import WeddingAlbum from "./components/WeddingAlbum/WeddingAlbum";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <HeroBanner />
       <MeetHappy />
       <Names />
+      <WeddingAlbum />
     </>
   );
 }

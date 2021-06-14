@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme) => ({
     "& h4": {
       color: "var(--primary)",
       fontWeight: "600",
+      textTransform: "capitalize",
       fontFamily: "var(--pop) !important",
     },
     "& p": {
@@ -45,6 +46,7 @@ const useStyles = makeStyles((theme) => ({
     "& h6": {
       fontSize: "16px",
       fontWeight: "600",
+      textTransform: "capitalize",
       fontFamily: "var(--pop) !important",
     },
     "& h2": {
