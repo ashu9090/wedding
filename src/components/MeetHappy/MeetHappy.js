@@ -15,26 +15,23 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     padding: "60px 0",
   },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-    boxShadow: "none",
-  },
   centerHeading: {
     textAlign: "center",
     boxShadow: "none",
     marginBottom: "50px",
+    fontFamily: "var(--pop) !important",
     "& img": {
       width: "200px",
     },
     "& h4": {
       color: "var(--primary)",
       fontWeight: "600",
+      fontFamily: "var(--pop) !important",
     },
     "& p": {
       fontSize: "16px",
       color: "var(--primary)",
+      fontFamily: "var(--pop) !important",
     },
   },
   cPhoto: {
@@ -44,13 +41,24 @@ const useStyles = makeStyles((theme) => ({
   aboutText: {
     boxShadow: "none",
     color: "var(--primary)",
-    "& h6": { fontSize: "16px", fontWeight: "600" },
+    fontFamily: "var(--pop) !important",
+    "& h6": {
+      fontSize: "16px",
+      fontWeight: "600",
+      fontFamily: "var(--pop) !important",
+    },
     "& h2": {
       textTransform: "capitalize",
       fontSize: "34px",
       fontWeight: "800",
+      fontFamily: "var(--pop) !important",
     },
-    "& p": { fontSize: "16px", marginBottom: "20px", float: "left" },
+    "& p": {
+      fontSize: "16px",
+      marginBottom: "20px",
+      float: "left",
+      fontFamily: "var(--pop) !important",
+    },
   },
   linkBtn: {
     color: "#fff",
@@ -58,6 +66,7 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "100px",
     padding: "12px 30px",
     display: "inline-block",
+    fontFamily: "var(--pop) !important",
   },
 }));
 

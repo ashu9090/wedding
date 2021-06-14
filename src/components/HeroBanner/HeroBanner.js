@@ -49,6 +49,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "14px",
     marginBottom: "15px",
     marginLeft: "90px",
+    fontFamily: "var(--pop) !important",
   },
   designPhoto: {
     width: "150px",
