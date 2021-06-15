@@ -47,3 +47,12 @@ export const PhotoAlbum = [
       "A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.",
   },
 ];
+
+export const FooterData = [
+  {
+    id: 1,
+    Title: "are you attending",
+    Paragraph:
+      "A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.",
+  },
+];

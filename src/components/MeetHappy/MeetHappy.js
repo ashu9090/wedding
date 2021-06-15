@@ -43,6 +43,7 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "none",
     color: "var(--primary)",
     fontFamily: "var(--pop) !important",
+
     "& h6": {
       fontSize: "16px",
       fontWeight: "600",

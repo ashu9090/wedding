@@ -4,6 +4,7 @@ import HeroBanner from "./components/HeroBanner/HeroBanner";
 import MeetHappy from "./components/MeetHappy/MeetHappy";
 import Names from "./components/Names/Names";
 import WeddingAlbum from "./components/WeddingAlbum/WeddingAlbum";
+import Footer from "./components/Footer/Footer";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <MeetHappy />
       <Names />
       <WeddingAlbum />
+      <Footer />
     </>
   );
 }
