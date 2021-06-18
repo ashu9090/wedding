@@ -56,3 +56,118 @@ export const FooterData = [
       "A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.",
   },
 ];
+export const GiftData = [
+  {
+    id: 1,
+    Title: "gift registry",
+    Paragraph:
+      "A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.",
+  },
+];
+export const GiftSlider = [
+  {
+    id: 1,
+    pic: require("../src/assets/images/s1.png").default,
+  },
+  {
+    id: 2,
+    pic: require("../src/assets/images/s1.png").default,
+  },
+  {
+    id: 3,
+    pic: require("../src/assets/images/s2.png").default,
+  },
+  {
+    id: 3,
+    pic: require("../src/assets/images/s3.png").default,
+  },
+  {
+    id: 4,
+    pic: require("../src/assets/images/s4.png").default,
+  },
+  {
+    id: 5,
+    pic: require("../src/assets/images/s5.png").default,
+  },
+];
+export const FriendData = [
+  {
+    id: 1,
+    Title: "friends wishes",
+    Paragraph:
+      "A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.",
+  },
+];
+export const Testimonial = [
+  {
+    id: 1,
+    Name: "ashu",
+    Post: "CEO OF SC.",
+    Paragraph:
+      "A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.",
+  },
+  {
+    id: 2,
+    Name: "ashu2",
+    Post: "CEO OF SC.",
+    Paragraph:
+      "A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.",
+  },
+  {
+    id: 3,
+    Name: "ashu3",
+    Post: "CEO OF SC.",
+    Paragraph:
+      "A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.",
+  },
+];
+export const WhenData = [
+  {
+    id: 1,
+    Title: "When And Where",
+    Paragraph:
+      "A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.",
+  },
+];
+export const BeautifulData = [
+  {
+    id: 1,
+    Title: "Our Beautiful Story",
+    Paragraph:
+      "A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.",
+  },
+];
+export const CountData = [
+  {
+    id: 1,
+    Title: "count down",
+    Paragraph:
+      "A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.",
+  },
+];
+export const IconNumberData = [
+  {
+    id: 1,
+    Icon: "fas fa-calendar-alt",
+    Title: "14",
+    Paragraph: "Total Event",
+  },
+  {
+    id: 2,
+    Icon: "fas fa-user",
+    Title: "999",
+    Paragraph: "Total Guest",
+  },
+  {
+    id: 3,
+    Icon: "fas fa-envelope",
+    Title: "999",
+    Paragraph: "Invitation Card",
+  },
+  {
+    id: 4,
+    Icon: "fas fa-bell",
+    Title: "1975",
+    Paragraph: "Total car",
+  },
+];
