@@ -10,7 +10,6 @@ import Slider from "react-slick";
 import designImage from "../../assets/images/bottom.png";
 import image1 from "../../assets/images/wishes.png";
 import { FriendData, Testimonial } from "../../DataConfig";
-import { FlareSharp } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -46,11 +45,21 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     background: "#fff",
     border: "1px solid var(--primary)",
-    margin: "3px",
-    padding: "20px",
+    padding: " 90px 20px",
     boxShadow: "0 0 10px #fff",
+    margin: "0 auto",
+    width: "83% !important",
+    display: "table !important",
+    // position: "relative",
+    // "&:after": {
+    //   position: "absolute",
+    //   content: "",
+    //   border: "1px solid var(--primary)",
+    //   inset: "10px 10px 10px 10px",
+    // },
+
     "& p": {
-      fontSize: "16px",
+      fontSize: "24px",
       color: "var(--primary)",
       fontWeight: "300",
     },
@@ -58,6 +67,7 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "18px",
       color: "var(--primary)",
       fontWeight: "600",
+      textTransform: "capitalize",
     },
     "& h6": {
       fontSize: "14px",

@@ -129,12 +129,89 @@ export const WhenData = [
       "A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.",
   },
 ];
+export const WhenSlider = [
+  {
+    id: 1,
+    pic: require("../src/assets/images/c1.png").default,
+    Title: "Ceremony",
+    Time: "7:00 Pm",
+    Paragraph: "address Text1",
+  },
+  {
+    id: 2,
+    pic: require("../src/assets/images/c2.png").default,
+    Title: "Ceremony",
+    Time: "6:00 Pm",
+    Paragraph: "address Text2",
+  },
+  {
+    id: 3,
+    pic: require("../src/assets/images/c1.png").default,
+    Title: "Ceremony",
+    Time: "3:00 Pm",
+    Paragraph: "address Text3",
+  },
+  {
+    id: 4,
+    pic: require("../src/assets/images/c2.png").default,
+    Title: "Ceremony",
+    Time: "8:00 Pm",
+    Paragraph: "address Text4",
+  },
+  {
+    id: 5,
+    pic: require("../src/assets/images/c1.png").default,
+    Title: "Ceremony",
+    Time: "5:00 Pm",
+    Paragraph: "address Text5",
+  },
+];
 export const BeautifulData = [
   {
     id: 1,
     Title: "Our Beautiful Story",
     Paragraph:
       "A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.",
+  },
+];
+export const BeautifulSlider = [
+  {
+    id: 1,
+    pic: require("../src/assets/images/b1.jpg").default,
+    Title: "Ceremony",
+    Date: "07/05/1667",
+    Paragraph: "Ut eu aute duis aliquip tempor dolor sit esse et laboris. ",
+  },
+  {
+    id: 2,
+    pic: require("../src/assets/images/b2.jpg").default,
+    Title: "Ceremony",
+    Date: "03/04/2020",
+    Paragraph:
+      "Dolore deserunt sit aute deserunt velit. Nisi adipisicing eiusmod ",
+  },
+  {
+    id: 3,
+    pic: require("../src/assets/images/b3.jpg").default,
+    Title: "Ceremony",
+    Date: "12/07/1992",
+    Paragraph:
+      "Laboris ut labore sit id deserunt in eiusmod. Adipisicing proident",
+  },
+  {
+    id: 4,
+    pic: require("../src/assets/images/b2.jpg").default,
+    Title: "Ceremony",
+    Date: "11/04/1992",
+    Paragraph:
+      "Adipisicing ipsum culpa qui ipsum tempor. Ipsum mollit ex laborum nostrud ",
+  },
+  {
+    id: 5,
+    pic: require("../src/assets/images/b1.jpg").default,
+    Title: "Ceremony",
+    Date: "10/09/1992",
+    Paragraph: "Cupidatat non ex sunt eu ut dolor cupidatat. Dolore in ",
   },
 ];
 export const CountData = [
