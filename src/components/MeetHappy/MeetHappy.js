@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
     "& h2": {
       textTransform: "capitalize",
       fontSize: "34px",
-      fontWeight: "800",
+      fontWeight: "600",
       fontFamily: "var(--pop) !important",
     },
     "& p": {
