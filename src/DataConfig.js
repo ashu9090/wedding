@@ -248,3 +248,85 @@ export const IconNumberData = [
     Paragraph: "Total car",
   },
 ];
+export const albumPhoto = [
+  {
+    id: "1",
+    imageName: require("../src/assets/images/h1.jpg").default,
+    tag: "free",
+  },
+  {
+    id: "2",
+    imageName: require("../src/assets/images/h2.jpg").default,
+    tag: "new",
+  },
+  {
+    id: "3",
+    imageName: require("../src/assets/images/h3.jpg").default,
+    tag: "pro",
+  },
+  {
+    id: "4",
+    imageName: require("../src/assets/images/h4.jpg").default,
+    tag: "pro",
+  },
+  {
+    id: "5",
+    imageName: require("../src/assets/images/b1.jpg").default,
+    tag: "free",
+  },
+  {
+    id: "6",
+    imageName: require("../src/assets/images/b2.jpg").default,
+    tag: "new",
+  },
+  {
+    id: "7",
+    imageName: require("../src/assets/images/b3.jpg").default,
+    tag: "pro",
+  },
+  {
+    id: "8",
+    imageName: require("../src/assets/images/h1.jpg").default,
+    tag: "free",
+  },
+  {
+    id: "9",
+    imageName: require("../src/assets/images/h2.jpg").default,
+    tag: "new",
+  },
+  {
+    id: "10",
+    imageName: require("../src/assets/images/h3.jpg").default,
+    tag: "new",
+  },
+  {
+    id: "11",
+    imageName: require("../src/assets/images/b1.jpg").default,
+    tag: "new",
+  },
+  {
+    id: "12",
+    imageName: require("../src/assets/images/b2.jpg").default,
+    tag: "new",
+  },
+  {
+    id: "13",
+    imageName: require("../src/assets/images/b3.jpg").default,
+    tag: "free",
+  },
+  {
+    id: "14",
+    imageName: require("../src/assets/images/h1.jpg").default,
+    tag: "pro",
+  },
+  {
+    id: "15",
+    imageName: require("../src/assets/images/h2.jpg").default,
+    tag: "free",
+  },
+  {
+    id: "16",
+    imageName: require("../src/assets/images/h3.jpg").default,
+    tag: "new",
+  },
+];
