@@ -26,6 +26,19 @@ const useStyles = makeStyles((theme) => ({
     left: "50%",
     transform: "translateX(-50%)",
     zIndex: "888",
+    width: "300px",
+    [theme.breakpoints.down("sm")]: {
+      width: "180px",
+      left: "0%",
+      transform: "translateX(0%)",
+    },
+    "& img": {
+      width: "100%",
+      [theme.breakpoints.down("sm")]: {
+        zIndex: "20",
+        position: "relative",
+      },
+    },
   },
   leftNev: {
     float: "left",
@@ -59,8 +72,28 @@ const useStyles = makeStyles((theme) => ({
   },
   sectionMobile: {
     display: "flex",
+
     [theme.breakpoints.up("md")]: {
       display: "none",
+    },
+  },
+  mobNavbar: {
+    "& div:nth-child(3)": {
+      left: "0px !important",
+      right: "0px !important",
+      maxWidth: "100%",
+      top: "50px !important",
+      paddingTop: "10px",
+      paddingLeft: "10px",
+      paddingRight: "10px",
+      zIndex: "4",
+      "& a": {
+        width: "100%",
+        display: "block",
+        color: "var(--primary)",
+        textDecoration: "none",
+        padding: "6px",
+      },
     },
   },
 }));
@@ -116,6 +149,7 @@ function Navbar() {
       transformOrigin={{ vertical: "top", horizontal: "right" }}
       open={isMobileMenuOpen}
       onClose={handleMobileMenuClose}
+      class={classes.mobNavbar}
     >
       <Link to="/">link 1</Link>
       <Link to="/">link 2</Link>

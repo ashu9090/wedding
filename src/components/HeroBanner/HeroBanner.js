@@ -23,12 +23,14 @@ const useStyles = makeStyles((theme) => ({
     right: "0",
     width: "580px",
     top: "0",
+    zIndex: "3",
   },
   imageBottom: {
     position: "absolute",
     left: "0",
     width: "300px",
     bottom: "0",
+    zIndex: "3",
   },
   gImage: {
     background: "none",
@@ -39,10 +41,18 @@ const useStyles = makeStyles((theme) => ({
   },
   logoNameText: {
     width: "500px",
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
+    },
   },
   girlHeading: {
     background: "none",
     boxShadow: "none",
+    position: "relative",
+    zIndex: "8",
+    [theme.breakpoints.down("sm")]: {
+      background: "rgba(255,255,255,0.8)",
+    },
   },
   bannerText: {
     color: "var(--primary)",
@@ -50,6 +60,11 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "15px",
     marginLeft: "90px",
     fontFamily: "var(--pop) !important",
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
+      marginLeft: "0px",
+      marginBottom: "0px",
+    },
   },
   designPhoto: {
     width: "150px",

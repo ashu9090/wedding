@@ -80,6 +80,9 @@ const useStyles = makeStyles((theme) => ({
     display: "grid",
     gridTemplateColumns: "repeat(4, 1fr)",
     gap: "10px",
+    [theme.breakpoints.down("sm")]: {
+      gridTemplateColumns: "repeat(2, 1fr)",
+    },
   },
   imageCard: {
     margin: "5px",

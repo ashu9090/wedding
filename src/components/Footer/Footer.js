@@ -105,6 +105,11 @@ const useStyles = makeStyles((theme) => ({
     textTransform: "uppercase",
     textAlign: "center",
     background: "linear-gradient(#c0872e, #eac575)",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "14px",
+      padding: "10px",
+      width: "140px",
+    },
   },
 }));
 
